@@ -7,7 +7,6 @@
             </div>
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
-                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" aria-current="page" -->
                     <x-navbar.nav-link href="/">Home</x-navbar.nav-link>
                     <x-navbar.nav-link href="/about">About</x-navbar.nav-link>
                     <x-navbar.nav-link href="/contact">Contact</x-navbar.nav-link>
@@ -37,7 +36,6 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="md:hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <x-navbar.dropdown-link href="/">Home</x-navbar.dropdown-link>
             <x-navbar.dropdown-link href="/about">About</x-navbar.dropdown-link>
             <x-navbar.dropdown-link href="/contact">Contact</x-navbar.dropdown-link>
