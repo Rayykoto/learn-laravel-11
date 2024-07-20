@@ -1,3 +1,3 @@
 <x-app-layout title="Gallery">
-    Gallery
+    Gallery content
 </x-app-layout>
